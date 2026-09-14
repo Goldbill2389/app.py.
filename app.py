@@ -11,13 +11,13 @@ league_sh_avg = st.sidebar.slider("League Average Shooting %", 7.0, 10.0, 8.7, 0
 
 # 2. Hardcoded baseline data dictionary (Your exact code logic)
 data = {
-    'Team': ['Edmonton Oilers', 'Florida Panthers', 'Dallas Stars', 'Carolina Hurricanes', 'Chicago Blackhawks', 'San Jose Sharks'],
-    'Baseline_xGF_60': [3.5, 3.4, 3.2, 3.6, 2.2, 2.0],
-    'Baseline_xGA_60': [2.8, 2.6, 2.7, 2.5, 3.5, 3.7],
-    'Net_Offseason_GAR': [12.5, -4.2, 2.1, -14.3, 18.2, 10.5],
-    'Last_Season_SH_Pct': [10.2, 11.5, 9.8, 8.5, 7.2, 8.0],
-    'Last_Season_SV_Pct': [90.0, 92.0, 91.3, 89.7, 90.3, 91.0],
-    'New_Goalie_True_Talent_SV': [91.3, 92.2, 91.8, 91.3, 91.3, 89.5] 
+    'Team': ['Edmonton Oilers', 'Florida Panthers', 'Dallas Stars', 'Chicago Blackhawks', 'San Jose Sharks'],
+    'Baseline_xGF_60': [3.5, 3.4, 3.2, 2.2, 2.0],
+    'Baseline_xGA_60': [2.8, 2.6, 2.7, 3.5, 3.7],
+    'Net_Offseason_GAR': [12.5, -4.2, 2.1, 18.2, 10.5],
+    'Last_Season_SH_Pct': [10.2, 11.5, 9.8, 7.2, 8.0],
+    'Last_Season_SV_Pct': [90.0, 92.0, 91.3, 90.3, 91.0],
+    'New_Goalie_True_Talent_SV': [91.3, 92.2, 91.8, 91.3, 89.5] 
 }
 
 df = pd.DataFrame(data)
